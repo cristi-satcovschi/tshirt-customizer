@@ -23,9 +23,9 @@ The project prioritizes mobile devices, ensuring a seamless experience across di
 
 ## Installation
 
-To run the CCTV video analytics software locally, follow these steps:
+To run the project locally, follow these steps:
 
-Clone the repository: git clone https://github.com/cristi-satcovschi/cctv-app.git
+Clone the repository: git clone https://github.com/cristi-satcovschi/tshirt-customizer.git
 Install dependencies: npm install
 Start the development server: npm run dev
 Open the app in your browser: http://localhost:3000
