@@ -8,7 +8,6 @@ This project aims to provide a platform for designing and purchasing custom t-sh
 
   Example URL: [https://freelance.cristisatcovschi.ro/tshirt-customizer/catalog](https://freelance.cristisatcovschi.ro/tshirt-customizer/catalog)
 
-  Source code: app/search/\_components/SearchResultsSection.tsx
   Source code: [app/catalog/page.tsx](https://github.com/cristi-satcovschi/tshirt-customizer/tree/main/app/catalog/page.tsx)
 
 - **T-Shirt Design** Design custom t-shirts using a 3D designer tool with element customization options.
