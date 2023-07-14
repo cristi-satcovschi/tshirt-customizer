@@ -1,5 +1,5 @@
 import { useRef, useState } from "react";
-import { Canvas, useFrame } from "@react-three/fiber";
+import { Canvas, MeshProps, useFrame } from "@react-three/fiber";
 import {
   AccumulativeShadows,
   RandomizedLight,
@@ -14,7 +14,11 @@ import {
   PerspectiveCamera,
 } from "@react-three/drei";
 
-function TexturedSphere({ text }) {
+interface TexturedSphereProps {
+  text: string;
+}
+
+const TexturedSphere = ({ text }: TexturedSphereProps) => {
   return (
     <mesh>
       <Sphere args={[1, 32, 32]} receiveShadow castShadow>
@@ -45,9 +49,11 @@ function TexturedSphere({ text }) {
       </Sphere>
     </mesh>
   );
-}
+};
 
-function Sphere2(props) {
+interface Sphere2Props extends MeshProps {}
+
+const Sphere2 = (props: Sphere2Props) => {
   const meshRef = useRef();
   const [hovered, hover] = useState(false);
   const texture = useTexture("/inkscape-path-functions.png");
@@ -89,7 +95,7 @@ function Sphere2(props) {
       </Decal> */}
     </mesh>
   );
-}
+};
 
 export const DesignCanvasPanel = () => {
   return (
