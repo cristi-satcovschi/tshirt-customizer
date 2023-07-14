@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "title": "Custom T-Shirt 1",
+    "image": "https://ih1.redbubble.net/image.3348434398.2948/ssrco,classic_tee,womens,e5d6c5:f62bbf65ee,front_alt,square_product,600x600.u1.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "price": 19.99,
+    "category": "Category A",
+    "color": "Red",
+    "size": "Small"
+  },
+  {
+    "id": 2,
+    "title": "Custom T-Shirt 2",
+    "image": "https://ih1.redbubble.net/image.3348434398.2948/ssrco,classic_tee,womens,e5d6c5:f62bbf65ee,front_alt,square_product,600x600.u1.jpg",
+    "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    "price": 24.99,
+    "category": "Category B",
+    "color": "Blue",
+    "size": "Medium"
+  },
+  {
+    "id": 3,
+    "title": "Custom T-Shirt 3",
+    "image": "https://ih1.redbubble.net/image.3348434398.2948/ssrco,classic_tee,womens,e5d6c5:f62bbf65ee,front_alt,square_product,600x600.u1.jpg",
+    "description": "Aenean nec elit sed dolor aliquam ullamcorper a vitae tortor.",
+    "price": 14.99,
+    "category": "Category A",
+    "color": "Green",
+    "size": "Large"
+  },
+  {
+    "id": 4,
+    "title": "Custom T-Shirt 4",
+    "image": "https://ih1.redbubble.net/image.3348434398.2948/ssrco,classic_tee,womens,e5d6c5:f62bbf65ee,front_alt,square_product,600x600.u1.jpg",
+    "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
+    "price": 29.99,
+    "category": "Category C",
+    "color": "Yellow",
+    "size": "Medium"
+  },
+  {
+    "id": 5,
+    "title": "Custom T-Shirt 5",
+    "image": "https://ih1.redbubble.net/image.3348434398.2948/ssrco,classic_tee,womens,e5d6c5:f62bbf65ee,front_alt,square_product,600x600.u1.jpg",
+    "description": "Quisque fermentum justo non convallis dapibus.",
+    "price": 17.99,
+    "category": "Category B",
+    "color": "Black",
+    "size": "Small"
+  },
+  {
+    "id": 6,
+    "title": "Custom T-Shirt 6",
+    "image": "https://ih1.redbubble.net/image.3348434398.2948/ssrco,classic_tee,womens,e5d6c5:f62bbf65ee,front_alt,square_product,600x600.u1.jpg",
+    "description": "Fusce tempor ligula quis interdum consectetur.",
+    "price": 21.99,
+    "category": "Category A",
+    "color": "Red",
+    "size": "Large"
+  },
+  {
+    "id": 7,
+    "title": "Custom T-Shirt 7",
+    "image": "https://ih1.redbubble.net/image.3348434398.2948/ssrco,classic_tee,womens,e5d6c5:f62bbf65ee,front_alt,square_product,600x600.u1.jpg",
+    "description": "Etiam malesuada velit id elit sollicitudin, at aliquet justo ullamcorper.",
+    "price": 12.99,
+    "category": "Category B",
+    "color": "Blue",
+    "size": "Medium"
+  },
+  {
+    "id": 8,
+    "title": "Custom T-Shirt 8",
+    "image": "https://ih1.redbubble.net/image.3348434398.2948/ssrco,classic_tee,womens,e5d6c5:f62bbf65ee,front_alt,square_product,600x600.u1.jpg",
+    "description": "Sed in magna tristique, posuere diam ut, aliquet ex.",
+    "price": 18.99,
+    "category": "Category C",
+    "color": "Green",
+    "size": "Small"
+  },
+  {
+    "id": 9,
+    "title": "Custom T-Shirt 9",
+    "image": "https://ih1.redbubble.net/image.3348434398.2948/ssrco,classic_tee,womens,e5d6c5:f62bbf65ee,front_alt,square_product,600x600.u1.jpg",
+    "description": "Phasellus finibus justo id nibh luctus, non tincidunt mauris finibus.",
+    "price": 26.99,
+    "category": "Category A",
+    "color": "Yellow",
+    "size": "Large"
+  },
+  {
+    "id": 10,
+    "title": "Custom T-Shirt 10",
+    "image": "https://ih1.redbubble.net/image.3348434398.2948/ssrco,classic_tee,womens,e5d6c5:f62bbf65ee,front_alt,square_product,600x600.u1.jpg",
+    "description": "Nulla facilisi. Aenean fermentum ligula vitae pharetra mattis.",
+    "price": 15.99,
+    "category": "Category B",
+    "color": "Black",
+    "size": "Medium"
+  },
+  {
+    "id": 11,
+    "title": "Custom T-Shirt 11",
+    "image": "https://ih1.redbubble.net/image.3348434398.2948/ssrco,classic_tee,womens,e5d6c5:f62bbf65ee,front_alt,square_product,600x600.u1.jpg",
+    "description": "Duis consequat metus eu sagittis varius.",
+    "price": 23.99,
+    "category": "Category A",
+    "color": "Red",
+    "size": "Small"
+  },
+  {
+    "id": 12,
+    "title": "Custom T-Shirt 12",
+    "image": "https://ih1.redbubble.net/image.3348434398.2948/ssrco,classic_tee,womens,e5d6c5:f62bbf65ee,front_alt,square_product,600x600.u1.jpg",
+    "description": "Vivamus et mauris at enim egestas laoreet.",
+    "price": 20.99,
+    "category": "Category C",
+    "color": "Blue",
+    "size": "Large"
+  },
+  {
+    "id": 13,
+    "title": "Custom T-Shirt 13",
+    "image": "https://ih1.redbubble.net/image.3348434398.2948/ssrco,classic_tee,womens,e5d6c5:f62bbf65ee,front_alt,square_product,600x600.u1.jpg",
+    "description": "Proin congue nisl in semper pellentesque.",
+    "price": 14.99,
+    "category": "Category A",
+    "color": "Green",
+    "size": "Small"
+  },
+  {
+    "id": 14,
+    "title": "Custom T-Shirt 14",
+    "image": "https://ih1.redbubble.net/image.3348434398.2948/ssrco,classic_tee,womens,e5d6c5:f62bbf65ee,front_alt,square_product,600x600.u1.jpg",
+    "description": "Nunc at augue in leo consequat pulvinar vitae in ex.",
+    "price": 30.99,
+    "category": "Category B",
+    "color": "Yellow",
+    "size": "Medium"
+  },
+  {
+    "id": 15,
+    "title": "Custom T-Shirt 15",
+    "image": "https://ih1.redbubble.net/image.3348434398.2948/ssrco,classic_tee,womens,e5d6c5:f62bbf65ee,front_alt,square_product,600x600.u1.jpg",
+    "description": "Praesent vel est eget diam faucibus dapibus at ut eros.",
+    "price": 16.99,
+    "category": "Category C",
+    "color": "Black",
+    "size": "Large"
+  },
+  {
+    "id": 16,
+    "title": "Custom T-Shirt 16",
+    "image": "https://ih1.redbubble.net/image.3348434398.2948/ssrco,classic_tee,womens,e5d6c5:f62bbf65ee,front_alt,square_product,600x600.u1.jpg",
+    "description": "Suspendisse malesuada dui in diam hendrerit laoreet.",
+    "price": 22.99,
+    "category": "Category A",
+    "color": "Red",
+    "size": "Small"
+  },
+  {
+    "id": 17,
+    "title": "Custom T-Shirt 17",
+    "image": "https://ih1.redbubble.net/image.3348434398.2948/ssrco,classic_tee,womens,e5d6c5:f62bbf65ee,front_alt,square_product,600x600.u1.jpg",
+    "description": "Donec ultricies leo sed libero volutpat, sed pellentesque nisi facilisis.",
+    "price": 19.99,
+    "category": "Category B",
+    "color": "Blue",
+    "size": "Medium"
+  },
+  {
+    "id": 18,
+    "title": "Custom T-Shirt 18",
+    "image": "https://ih1.redbubble.net/image.3348434398.2948/ssrco,classic_tee,womens,e5d6c5:f62bbf65ee,front_alt,square_product,600x600.u1.jpg",
+    "description": "Curabitur condimentum mauris non nunc rutrum finibus.",
+    "price": 13.99,
+    "category": "Category A",
+    "color": "Green",
+    "size": "Small"
+  },
+  {
+    "id": 19,
+    "title": "Custom T-Shirt 19",
+    "image": "https://ih1.redbubble.net/image.3348434398.2948/ssrco,classic_tee,womens,e5d6c5:f62bbf65ee,front_alt,square_product,600x600.u1.jpg",
+    "description": "Integer sed velit quis erat lacinia convallis vitae ut diam.",
+    "price": 28.99,
+    "category": "Category C",
+    "color": "Yellow",
+    "size": "Large"
+  },
+  {
+    "id": 20,
+    "title": "Custom T-Shirt 20",
+    "image": "https://ih1.redbubble.net/image.3348434398.2948/ssrco,classic_tee,womens,e5d6c5:f62bbf65ee,front_alt,square_product,600x600.u1.jpg",
+    "description": "Maecenas eu turpis cursus, commodo enim ut, feugiat neque.",
+    "price": 17.99,
+    "category": "Category B",
+    "color": "Black",
+    "size": "Medium"
+  }
+]

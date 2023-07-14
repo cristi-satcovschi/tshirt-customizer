@@ -1,4 +1,15 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  images: {
+    domains: ["img.icons8.com", "ih1.redbubble.net"],
+  },
 
-module.exports = nextConfig
+  ...(process.env.NODE_ENV === "production" && {
+    basePath: "/tshirt-customizer",
+  }),
+
+  skipTrailingSlashRedirect: true,
+  skipMiddlewareUrlNormalize: true,
+};
+
+module.exports = nextConfig;

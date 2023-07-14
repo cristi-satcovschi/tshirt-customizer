@@ -1,0 +1,8 @@
+[
+  { "type": "text", "content": "Sample Text 1" },
+  { "type": "image", "content": "/inkscape-path-functions.png" },
+  { "type": "image", "content": "/inkscape-path-functions.png" },
+  { "type": "text", "content": "Sample Text 2" },
+  { "type": "image", "content": "/inkscape-path-functions.png" },
+  { "type": "text", "content": "Sample Text 3" }
+]

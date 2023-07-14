@@ -1,0 +1,17 @@
+[
+  {
+    "type": "category",
+    "title": "Category",
+    "options": ["Category A", "Category B", "Category C"]
+  },
+  {
+    "type": "color",
+    "title": "Color",
+    "options": ["Red", "Blue", "Green", "Yellow"]
+  },
+  {
+    "type": "size",
+    "title": "Size",
+    "options": ["Small", "Medium", "Large", "XL"]
+  }
+]

@@ -1,34 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Custom T-Shirts
 
-## Getting Started
+This project aims to provide a platform for designing and purchasing custom t-shirts online.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- **T-Shirts Listing** Browse and explore a wide range of t-shirts with search, filters, and pagination.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+  Example URL: [https://freelance.cristisatcovschi.ro/tshirt-customizer/catalog](https://freelance.cristisatcovschi.ro/tshirt-customizer/catalog)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+  Source code: app/search/\_components/SearchResultsSection.tsx
+  Source code: [app/catalog/page.tsx](https://github.com/cristi-satcovschi/tshirt-customizer/tree/main/app/catalog/page.tsx)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **T-Shirt Design** Design custom t-shirts using a 3D designer tool with element customization options.
 
-## Learn More
+  Example URL: [https://freelance.cristisatcovschi.ro/tshirt-customizer/design-studio](https://freelance.cristisatcovschi.ro/tshirt-customizer/design-studio)
 
-To learn more about Next.js, take a look at the following resources:
+  Source code: [app/design-studio/page.tsx](https://github.com/cristi-satcovschi/tshirt-customizer/tree/main/app/design-studio/page.tsx)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Mobile-First Design
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+The project prioritizes mobile devices, ensuring a seamless experience across different screen sizes.
 
-## Deploy on Vercel
+## Installation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+To run the CCTV video analytics software locally, follow these steps:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Clone the repository: git clone https://github.com/cristi-satcovschi/cctv-app.git
+Install dependencies: npm install
+Start the development server: npm run dev
+Open the app in your browser: http://localhost:3000
