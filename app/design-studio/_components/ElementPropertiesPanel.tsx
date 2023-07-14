@@ -1,6 +1,15 @@
 import { useState } from "react";
 import { FaTimes } from "react-icons/fa";
 
+type TextEditorProps = {
+  initialText: string;
+  xOffset: number;
+  yOffset: number;
+  isFront: boolean;
+  onUpdate: (updatedData: { [key: string]: any }) => void;
+  handleCloseEditor: () => void;
+};
+
 const TextEditor = ({
   initialText,
   xOffset,
@@ -8,20 +17,20 @@ const TextEditor = ({
   isFront,
   onUpdate,
   handleCloseEditor,
-}) => {
+}: TextEditorProps) => {
   const [text, setText] = useState(initialText);
   const [fontSize, setFontSize] = useState(16);
   const [color, setColor] = useState("#000000");
 
-  const handleTextChange = (e) => {
+  const handleTextChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setText(e.target.value);
   };
 
-  const handleFontSizeChange = (e) => {
+  const handleFontSizeChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFontSize(parseInt(e.target.value, 10));
   };
 
-  const handleColorChange = (e) => {
+  const handleColorChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setColor(e.target.value);
   };
 
@@ -149,16 +158,22 @@ const TextEditor = ({
   );
 };
 
-export const ElementPropertiesPanel = ({ handleCloseEditor }) => {
-  const handleTextEditorUpdate = (e) => {
-    console.log("e", e);
-  };
+type ElementPropertiesProps = {
+  handleCloseEditor: () => void;
+};
+
+export const ElementPropertiesPanel = ({
+  handleCloseEditor,
+}: ElementPropertiesProps) => {
   return (
     <div className="w-full lg:w-64 order-3 absolute lg:relative bottom-0 z-10">
       <TextEditor
         initialText={"test123"}
-        onUpdate={handleTextEditorUpdate}
+        onUpdate={() => {}}
         handleCloseEditor={handleCloseEditor}
+        xOffset={0}
+        yOffset={0}
+        isFront={true}
       />
     </div>
   );

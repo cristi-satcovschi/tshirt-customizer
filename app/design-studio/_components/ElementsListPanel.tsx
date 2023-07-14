@@ -8,10 +8,15 @@ interface ItemListProps {
 }
 
 const ItemList = ({ handleClickElement }: ItemListProps) => {
-  const [items, setItems] = useState(elements);
-  const [selectedType, setSelectedType] = useState(null);
+  const [items, setItems] = useState<
+    {
+      type: string;
+      content: string | null;
+    }[]
+  >(elements);
+  const [selectedType, setSelectedType] = useState<string | null>(null);
   const [textInput, setTextInput] = useState("");
-  const [imageInput, setImageInput] = useState(null);
+  const [imageInput, setImageInput] = useState<string | null>(null);
 
   const handleAddItemClick = () => {
     if (selectedType === "text") {
@@ -51,7 +56,7 @@ const ItemList = ({ handleClickElement }: ItemListProps) => {
               {item.type === "text" && (
                 <p className="text-sm">{item.content}</p>
               )}
-              {item.type === "image" && (
+              {item.content && item.type === "image" && (
                 <Image
                   src={item.content}
                   alt="Image"
@@ -80,6 +85,7 @@ const ItemList = ({ handleClickElement }: ItemListProps) => {
                 type="file"
                 accept="image/*"
                 onChange={(e) =>
+                  e?.target?.files?.[0] &&
                   setImageInput(URL.createObjectURL(e.target.files[0]))
                 }
                 className="mr-2"
@@ -115,7 +121,13 @@ const ItemList = ({ handleClickElement }: ItemListProps) => {
   );
 };
 
-export const ElementsListPanel = ({ handleClickElement }) => {
+interface ElementsListPanelProps {
+  handleClickElement: () => void;
+}
+
+export const ElementsListPanel = ({
+  handleClickElement,
+}: ElementsListPanelProps) => {
   const handleAddElement = () => {};
 
   return (
