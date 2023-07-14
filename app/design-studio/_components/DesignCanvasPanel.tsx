@@ -58,7 +58,7 @@ const TexturedSphere = ({ text }: TexturedSphereProps) => {
 interface Sphere2Props extends MeshProps {}
 
 const Sphere2 = (props: Sphere2Props) => {
-  const meshRef = useRef();
+  const meshRef = useRef<THREE.Mesh>(null);
   const [hovered, hover] = useState(false);
   const texture = useTexture("/inkscape-path-functions.png");
 
