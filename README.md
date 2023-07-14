@@ -25,7 +25,7 @@ The project prioritizes mobile devices, ensuring a seamless experience across di
 
 To run the project locally, follow these steps:
 
-Clone the repository: git clone https://github.com/cristi-satcovschi/tshirt-customizer.git
-Install dependencies: npm install
-Start the development server: npm run dev
-Open the app in your browser: http://localhost:3000
+1. Clone the repository: git clone https://github.com/cristi-satcovschi/tshirt-customizer.git
+2. Install dependencies: npm install
+3. Start the development server: npm run dev
+4. Open the app in your browser: http://localhost:3000
