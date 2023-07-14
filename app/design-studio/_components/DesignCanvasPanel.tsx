@@ -30,7 +30,11 @@ const TexturedSphere = ({ text }: TexturedSphereProps) => {
             polygonOffset
             polygonOffsetFactor={-10}
           >
-            <RenderTexture attach="map" anisotropy={16}>
+            <RenderTexture
+              sourceFile={"/inkscape-path-functions.png"}
+              attach="map"
+              anisotropy={16}
+            >
               <ambientLight intensity={0.5} />
               <directionalLight position={[10, 10, 5]} />
               <color attach="background" args={["#af2041"]} />
