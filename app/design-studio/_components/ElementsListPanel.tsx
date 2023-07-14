@@ -1,8 +1,13 @@
 import { useState } from "react";
 
 import elements from "./_elements.json";
+import Image from "next/image";
 
-const ItemList = ({ handleClickElement }) => {
+interface ItemListProps {
+  handleClickElement: () => void;
+}
+
+const ItemList = ({ handleClickElement }: ItemListProps) => {
   const [items, setItems] = useState(elements);
   const [selectedType, setSelectedType] = useState(null);
   const [textInput, setTextInput] = useState("");
@@ -47,9 +52,11 @@ const ItemList = ({ handleClickElement }) => {
                 <p className="text-sm">{item.content}</p>
               )}
               {item.type === "image" && (
-                <img
+                <Image
                   src={item.content}
                   alt="Image"
+                  height={32}
+                  width={32}
                   className="w-8 h-8 rounded object-cover"
                 />
               )}
